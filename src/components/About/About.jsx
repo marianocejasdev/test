@@ -4,7 +4,7 @@ import { SiHtml5, SiCss3, SiJavascript, SiBootstrap, SiSass, SiReact, SiNodedotj
 const About = () => {
     return (
 
-        <div className="container flex flex-col gap-12 justify-center md:grid grid-rows-2 grid-cols-2 grid-flow-row md:gap-8">
+        <div className="container flex flex-col gap-12 justify-center md:grid grid-rows-2 grid-cols-2 grid-flow-row md:gap-8 md:items-start">
 
             <div className="flex flex-col items-start justify-center gap-12 md:gap-6 md:row-span-1">
                 <h2 className='text-white text-3xl font-semibold border-b-4 border-purple-500 pb-2'>Sobre mi.</h2>
